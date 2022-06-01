@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("Poppins-Regular.ttf");
+}
+@font-face{
+    font-family: Poppins-Bold;
+    src: url("Poppins-Bold.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url(../componentes/astronomy.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: rgba(1, 16, 57, 0.432);
+    border-radius: 20px;
+    width: 80%;
+    backdrop-filter: blur(1px);
+}
+#conteudo{
+    width: 50%;
+    height: 80vh;
+    background-color: #fff;
+    padding: 2rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#imagem{
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    padding-top: 45px;
+}
+img{
+    width: 400px;
+    padding-left: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gender{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+}
+.input-radio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    font-family: Poppins-Bold;
+    font-size: 30px;
+}
+h1::after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 5px;
+    background-color: #E07BF3;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+h3, label{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    font-weight: 300;
+}
+#entrar{
+    border: none;
+    border-radius: 5px;
+    background-color: #E07BF3;
+    padding: 5px 15px;
+    height: fit-content;
+    cursor: pointer;
+}
+#entrar:hover{
+    background-color: #5853A4;
+}
+#continuar{
+    border: none;
+    border-radius: 5px;
+    background-color: #E07BF3;
+    padding: 5px 15px;
+    width: 100%;
+    height: fit-content;
+    cursor: pointer;
+}
+#continuar:hover{
+    background-color: #5853A4;
+}
+a{
+    text-decoration: none;
+    font-family: Poppins-Regular;
+    color: #fff;
+}
+#input{
+    margin: 12px 0;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+#input:hover{
+    background-color: #eeeeee75;
+}
+#input:focus-visible{
+    outline: 1px solid #E07BF3;
+}
+#input::placeholder{
+    font-family: Poppins-Regular;
+    font-size: 12px;
+}
