@@ -93,7 +93,8 @@ h1::after{
     position: absolute;
     border-radius: 10px;
 }
-h3, label{
+label{
+    display: flex;
     font-family: Poppins-Regular;
     font-size: 14px;
     font-weight: 300;
@@ -126,20 +127,20 @@ a{
     font-family: Poppins-Regular;
     color: #fff;
 }
-#input{
+.input{
     margin: 12px 0;
     padding: 7px 20px;
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
-#input:hover{
+.input:hover{
     background-color: #eeeeee75;
 }
-#input:focus-visible{
+.input:focus-visible{
     outline: 1px solid #E07BF3;
 }
-#input::placeholder{
+.input::placeholder{
     font-family: Poppins-Regular;
     font-size: 12px;
 }
